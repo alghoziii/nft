@@ -1,0 +1,199 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gulzar&display=swap");
+
+nav {
+  height: 70px;
+}
+
+.nav-link {
+  color: #ffc107;
+  font-weight: 800;
+  font-family: "Gulzar", serif;
+}
+.nav-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ffc107;
+  color: #ffc107;
+}
+section {
+  background: rgba(42, 44, 57, 1.9);
+}
+.hero {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  min-height: 60vh;
+  padding: 160px 0 60px 0;
+}
+
+.hero h2 {
+  font-size: 60px;
+  font-weight: 70;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+}
+
+.hero p {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.about .about-img {
+  min-height: 800px;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: "Amatic SC", cursive;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.about p {
+  color: #fff;
+}
+
+.about ul {
+  color: #fff;
+}
+
+.section-header-about {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+.section-header-about h2 {
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+}
+
+.section-header-about p {
+  color: #fff;
+}
+
+/*body {
+  background-color:#1d1d1d !important;
+  font-family: "Asap", sans-serif;
+  color:#989898;
+  margin:10px;
+  font-size:16px;
+}*/
+
+//gallery
+.section-header {
+  padding-bottom: 30px;
+  padding-top: 300px;
+}
+
+.section-header h2 {
+  color: #fff;
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.section-header p {
+  text-align: center;
+  color: #fff;
+}
+.thumb {
+  margin-bottom: 30px;
+}
+
+.page-top {
+  margin-top: 85px;
+}
+
+img.zoom {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/*contact us*/
+.my-form {
+  color: #ffffff;
+}
+.my-form .btn-default {
+  background-color: #ffc107;
+  color: #fff;
+  border-radius: 1;
+  margin-top: 20px;
+  justify-items: right;
+}
+.my-form .btn-default:hover {
+  background-color: #4498c6;
+  color: #fff;
+}
+.my-form .form-control {
+  border-radius: 1;
+}
+
+.responsive-map {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.responsive-map iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*
+//footer*/
+#footer {
+  background: rgba(43, 47, 57, 0.9);
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 150px;
+}
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ef6603;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #bd5102;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .copyright {
+  margin: 5 0 5px 0;
+}
